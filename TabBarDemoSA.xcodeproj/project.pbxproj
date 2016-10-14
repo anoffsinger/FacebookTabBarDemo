@@ -14,6 +14,12 @@
 		85F6BC761DB07E3A00F7D0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F6BC741DB07E3A00F7D0AA /* LaunchScreen.storyboard */; };
 		85F6BC811DB07E3A00F7D0AA /* TabBarDemoSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F6BC801DB07E3A00F7D0AA /* TabBarDemoSATests.swift */; };
 		85F6BC8C1DB07E3A00F7D0AA /* TabBarDemoSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F6BC8B1DB07E3A00F7D0AA /* TabBarDemoSAUITests.swift */; };
+		85FAFEC71DB084510073B37B /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFEC61DB084510073B37B /* MessagesViewController.swift */; };
+		85FAFEC91DB084640073B37B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFEC81DB084640073B37B /* FeedViewController.swift */; };
+		85FAFECB1DB084870073B37B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFECA1DB084870073B37B /* MoreViewController.swift */; };
+		85FAFECD1DB084920073B37B /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFECC1DB084920073B37B /* NotificationsViewController.swift */; };
+		85FAFECF1DB0849D0073B37B /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFECE1DB0849D0073B37B /* RequestViewController.swift */; };
+		85FAFED11DB08F010073B37B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFED01DB08F010073B37B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		85F6BC871DB07E3A00F7D0AA /* TabBarDemoSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarDemoSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F6BC8B1DB07E3A00F7D0AA /* TabBarDemoSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarDemoSAUITests.swift; sourceTree = "<group>"; };
 		85F6BC8D1DB07E3A00F7D0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FAFEC61DB084510073B37B /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		85FAFEC81DB084640073B37B /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		85FAFECA1DB084870073B37B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		85FAFECC1DB084920073B37B /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		85FAFECE1DB0849D0073B37B /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		85FAFED01DB08F010073B37B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		85F6BC6A1DB07E3A00F7D0AA /* TabBarDemoSA */ = {
 			isa = PBXGroup;
 			children = (
+				85FAFEC51DB0842B0073B37B /* ViewController */,
 				85F6BC6B1DB07E3A00F7D0AA /* AppDelegate.swift */,
 				85F6BC6D1DB07E3A00F7D0AA /* ViewController.swift */,
 				85F6BC6F1DB07E3A00F7D0AA /* Main.storyboard */,
@@ -123,6 +136,19 @@
 				85F6BC8D1DB07E3A00F7D0AA /* Info.plist */,
 			);
 			path = TabBarDemoSAUITests;
+			sourceTree = "<group>";
+		};
+		85FAFEC51DB0842B0073B37B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85FAFEC61DB084510073B37B /* MessagesViewController.swift */,
+				85FAFEC81DB084640073B37B /* FeedViewController.swift */,
+				85FAFECA1DB084870073B37B /* MoreViewController.swift */,
+				85FAFECC1DB084920073B37B /* NotificationsViewController.swift */,
+				85FAFECE1DB0849D0073B37B /* RequestViewController.swift */,
+				85FAFED01DB08F010073B37B /* DetailViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FAFECB1DB084870073B37B /* MoreViewController.swift in Sources */,
+				85FAFEC71DB084510073B37B /* MessagesViewController.swift in Sources */,
+				85FAFECF1DB0849D0073B37B /* RequestViewController.swift in Sources */,
 				85F6BC6E1DB07E3A00F7D0AA /* ViewController.swift in Sources */,
+				85FAFECD1DB084920073B37B /* NotificationsViewController.swift in Sources */,
+				85FAFEC91DB084640073B37B /* FeedViewController.swift in Sources */,
 				85F6BC6C1DB07E3A00F7D0AA /* AppDelegate.swift in Sources */,
+				85FAFED11DB08F010073B37B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +535,7 @@
 				85F6BC921DB07E3A00F7D0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F6BC931DB07E3A00F7D0AA /* Build configuration list for PBXNativeTarget "TabBarDemoSATests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +544,7 @@
 				85F6BC951DB07E3A00F7D0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F6BC961DB07E3A00F7D0AA /* Build configuration list for PBXNativeTarget "TabBarDemoSAUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				85F6BC981DB07E3A00F7D0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
